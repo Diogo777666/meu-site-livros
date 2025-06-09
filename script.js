@@ -27,3 +27,5 @@ fetch('livros.json')
     document.getElementById('conteudo').innerHTML = 'Erro ao carregar os livros.';
     console.error('Erro ao buscar os dados:', error);
   });
+
+  
