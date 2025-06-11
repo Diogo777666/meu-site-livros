@@ -1,44 +1,43 @@
-{
-  "Ficção": [
-    {"titulo": "1984", "autor": "George Orwell", "ano": 1949},
-    {"titulo": "O Senhor dos Anéis", "autor": "J.R.R. Tolkien", "ano": 1954},
-    {"titulo": "Fahrenheit 451", "autor": "Ray Bradbury", "ano": 1953},
-    {"titulo": "Dom Casmurro", "autor": "Machado de Assis", "ano": 1899},
-    {"titulo": "O Hobbit", "autor": "J.R.R. Tolkien", "ano": 1937}
-  ],
-  "Não Ficção": [
-    {"titulo": "Sapiens", "autor": "Yuval Noah Harari", "ano": 2011},
-    {"titulo": "Educated", "autor": "Tara Westover", "ano": 2018},
-    {"titulo": "O Poder do Hábito", "autor": "Charles Duhigg", "ano": 2012},
-    {"titulo": "A Arte da Guerra", "autor": "Sun Tzu", "ano": "Século V a.C."},
-    {"titulo": "Blink", "autor": "Malcolm Gladwell", "ano": 2005}
-  ],
-  "Fantasia": [
-    {"titulo": "Harry Potter e a Pedra Filosofal", "autor": "J.K. Rowling", "ano": 1997},
-    {"titulo": "As Crônicas de Nárnia", "autor": "C.S. Lewis", "ano": 1950},
-    {"titulo": "O Nome do Vento", "autor": "Patrick Rothfuss", "ano": 2007},
-    {"titulo": "Mistborn: O Império Final", "autor": "Brandon Sanderson", "ano": 2006},
-    {"titulo": "Eragon", "autor": "Christopher Paolini", "ano": 2002}
-  ],
-  "Romance": [
-    {"titulo": "Orgulho e Preconceito", "autor": "Jane Austen", "ano": 1813},
-    {"titulo": "A Culpa é das Estrelas", "autor": "John Green", "ano": 2012},
-    {"titulo": "Como Eu Era Antes de Você", "autor": "Jojo Moyes", "ano": 2012},
-    {"titulo": "O Morro dos Ventos Uivantes", "autor": "Emily Brontë", "ano": 1847},
-    {"titulo": "Anna Karenina", "autor": "Liev Tolstói", "ano": 1877}
-  ],
-  "Ciência": [
-    {"titulo": "Uma Breve História do Tempo", "autor": "Stephen Hawking", "ano": 1988},
-    {"titulo": "O Gene: Uma História Íntima", "autor": "Siddhartha Mukherjee", "ano": 2016},
-    {"titulo": "Cosmos", "autor": "Carl Sagan", "ano": 1980},
-    {"titulo": "O Universo Numa Casca de Noz", "autor": "Stephen Hawking", "ano": 2001},
-    {"titulo": "A Dança do Universo", "autor": "Claudia de Almeida", "ano": 2013}
-  ],
-  "História": [
-    {"titulo": "Guns, Germs, and Steel", "autor": "Jared Diamond", "ano": 1997},
-    {"titulo": "A Segunda Guerra Mundial", "autor": "Antony Beevor", "ano": 2012},
-    {"titulo": "O Diário de Anne Frank", "autor": "Anne Frank", "ano": 1947},
-    {"titulo": "A História do Brasil", "autor": "Boris Fausto", "ano": 1995},
-    {"titulo": "1776", "autor": "David McCullough", "ano": 2005}
-  ]
+ {
+    "livros": [
+        {
+            "id": 1,
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "categoria": "Ficção Científica",
+            "preco": 39.90,
+            "estoque": 15,
+            "imagem": "img/1984.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "Dom Casmurro",
+            "autor": "Machado de Assis",
+            "categoria": "Literatura Brasileira",
+            "preco": 29.90,
+            "estoque": 10,
+            "imagem": "img/domcasmurro.jpg"
+        },
+
+        {
+            "id": 29,
+            "titulo": "Crime e Castigo",
+            "autor": "Fiódor Dostoiévski",
+            "categoria": "Romance Clássico",
+            "preco": 45.90,
+            "estoque": 10,
+            "imagem": "img/crimeecastigo.jpg"
+        },
+        {
+            "id": 30,
+            "titulo": "Ensaio sobre a Cegueira",
+            "autor": "José Saramago",
+            "categoria": "Ficção",
+            "preco": 48.90,
+            "estoque": 13,
+            "imagem": "img/cegueira.jpg"
+        }
+    ]
 }
+
+
